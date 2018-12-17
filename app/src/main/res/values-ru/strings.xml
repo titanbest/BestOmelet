@@ -1,0 +1,17 @@
+<resources>
+    <!--APPLICATION NAME-->
+    <string name="app_name">Best Omelet</string>
+
+    <!--EXCEPTION MESSAGE RESOURCE-->
+    <string name="internet_warning">Пожалуйста, подключитесь к интернет и повторите снова</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="error">Ошибка</string>
+
+    <!--MAIN_TEXT-->
+    <string name="main_toolbar_title">Лаборатория рецептов</string>
+
+    <!--OTHER TEXT-->
+    <string name="search_dish">Поиск рецепта</string>
+    <string name="set_dish">Введите ваше блюдо пожалуйста!</string>
+    <string name="list_is_empty">Список пуст</string>
+</resources>

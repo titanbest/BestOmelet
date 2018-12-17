@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">BestOmelet</string>
+    <!--APPLICATION NAME-->
+    <string name="app_name">Best Omelet</string>
+
+    <!--EXCEPTION MESSAGE RESOURCE-->
+    <string name="internet_warning">Please check your internet connection and try again</string>
+    <string name="server_error">Server error</string>
+    <string name="error">Error</string>
+
+    <!--MAIN_TEXT-->
+    <string name="main_toolbar_title">Recipe labs</string>
+
+    <!--OTHER TEXT-->
+    <string name="search_dish">Search for recipes</string>
+    <string name="set_dish">Set your dish please!</string>
+    <string name="list_is_empty">List is empty</string>
 </resources>

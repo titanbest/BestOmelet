@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemRecipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageRecipe"
+        android:layout_width="@dimen/item_image_size"
+        android:layout_height="@dimen/item_image_size"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/edit_text_margin_padding_24"
+        app:civ_border_color="@color/colorSeparator"
+        app:civ_border_width="@dimen/image_border_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textRecipeTitle"
+        style="@style/ItemTextTitleRecipe"
+        android:layout_marginEnd="@dimen/edit_text_margin_padding_24"
+        android:layout_marginStart="@dimen/edit_text_margin_padding_24"
+        android:layout_marginTop="@dimen/edit_text_margin_padding_24"
+        android:layout_toEndOf="@id/imageRecipe"
+        app:layout_constraintStart_toEndOf="@id/imageRecipe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textRecipeDescription"
+        style="@style/ItemTextDescriptionRecipe"
+        android:layout_below="@id/textRecipeTitle"
+        android:layout_marginBottom="@dimen/edit_text_margin_padding_24"
+        android:layout_marginEnd="@dimen/edit_text_margin_padding_24"
+        android:layout_marginStart="@dimen/edit_text_margin_padding_24"
+        android:layout_toEndOf="@id/imageRecipe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageRecipe"
+        app:layout_constraintTop_toBottomOf="@id/textRecipeTitle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_height"
+        android:background="@color/colorSeparator"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</android.support.constraint.ConstraintLayout>

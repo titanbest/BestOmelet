@@ -1,11 +1,66 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextTitleToolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/assistant_light</item>
+    </style>
+
+    <style name="SplashScreen" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="TextInternetWarning">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/list_is_empty</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">@font/assistant_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ItemTextTitleRecipe">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingStart">@dimen/edit_text_margin_padding_14</item>
+        <item name="android:fontFamily">@font/assistant_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemTextDescriptionRecipe">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/edit_text_margin_padding_14</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:fontFamily">@font/assistant_light</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="EditTextDish">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:completionThreshold">10</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">text</item>
+        <item name="android:fontFamily">@font/assistant_light</item>
+        <item name="android:background">@color/colorNull</item>
+        <item name="android:paddingStart">@dimen/edit_text_margin_padding_10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="ImageForSearch">
+        <item name="android:layout_width">@dimen/default_size_image_search</item>
+        <item name="android:layout_height">@dimen/default_size_image_search</item>
+        <item name="android:padding">@dimen/edit_text_margin_padding_5</item>
+    </style>
 </resources>

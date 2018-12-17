@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--CollapsingToolbar-->
+    <dimen name="titleMarginStart">48dp</dimen>
+    <dimen name="titleMarginEnd">64dp</dimen>
+
+    <!--Images-->
+    <dimen name="default_size_logo">200dp</dimen>
+    <dimen name="default_size_image_search">35dp</dimen>
+    <dimen name="item_image_size">70dp</dimen>
+
+    <!--Text_Size-->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <!--MarginAndPadding-->
+    <dimen name="edit_text_margin_padding_5">5dp</dimen>
+    <dimen name="edit_text_margin_padding_10">10dp</dimen>
+    <dimen name="edit_text_margin_padding_14">14dp</dimen>
+    <dimen name="edit_text_margin_padding_24">24dp</dimen>
+    <dimen name="edit_text_margin_padding_55">55dp</dimen>
+
+    <!--Others-->
+    <dimen name="image_border_size">1dp</dimen>
+    <dimen name="separator_height">1px</dimen>
+
+</resources>
